@@ -8,7 +8,7 @@ int main()
     cout << "Welcome to MSA University!";
     cout << "\nEnter your Thanaweya Amma Percantage (Without %): ";
     cin >> percantage;
-    if (percantage < 70)
+    if (percantage < 55)
     {
         cout << "\nSorry your percantage doesn't qualify you to study in MSA University";
         return 0;
@@ -48,8 +48,33 @@ int main()
         }
         else if (college == "Medicine" || college == "medicine")
         {
-            cout << "\nYou pay only 200,000 a year.";
+            cout << "\nYou pay only 200,000 EGP a year.";
         }
-    }
+    }    
+    else if (percantage >= 60)
+    {
+        cout << "\nYou are in category C: ";
+        if (college == "CS" || college == "cs")
+        {
+            cout << "\nYou pay only 200,000 EGP a year.";
+        }
+        else if (college == "Medicine" || college == "medicine")
+        {
+            cout << "\nYou pay only 275,000 EGP a year.";
+        }
+    } 
+    else if (percantage >= 55)
+    {
+        if (college == "CS" || college == "cs")
+        {
+            cout << "\nYou are in category D: ";
+            cout << "\nYou pay only 350,000 EGP a year.";
+        }
+        else if (college == "Medicine" || college == "medicine")
+        {
+            cout << "\nSorry. Medicine takes from minimum 60%";
+        }
+    }   
+
     return 0;
 }
