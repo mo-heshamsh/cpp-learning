@@ -1,4 +1,4 @@
-// a number guesser game
+// a number guesser game (typing std manually this time)
 #include <iostream>
 
 int main()
