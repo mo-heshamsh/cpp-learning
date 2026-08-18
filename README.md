@@ -1,6 +1,6 @@
 # 🚀 c++ learning journey
 
-welcome to my c++ learning repository! i'm mo, an incoming computer science student in msa getting a head start on programming, algorithm logic, and object-oriented programming (oop).
+welcome to my c++ learning repository! i'm mo, an incoming computer science student in msa getting a head start on programming, algorithm logic, and object-oriented programming (oop). training on leetcode, learning from many sources, mostly elzero.
 
 this repo tracks my daily practice scripts, terminal apps, and progress through c++ fundamentals.
 
@@ -37,7 +37,7 @@ a full-featured terminal shopping application built completely from scratch in c
 * [x] control flow & decision making (`if`, `switch`)
 * [x] loops & iteration (`while`, `for`, nested loops)
 * [x] arrays & string manipulation
-* [x] functions, parameters & scope (videos 1–57)
+* [x] functions, parameters & scope
 * [ ] function return types & default arguments
 * [ ] pointers & memory management
 * [ ] object-oriented programming (oop)
