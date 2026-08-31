@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Mo's Portfolio</title>
+        <meta name="description" content="Mo's Personal Portfolio Page"/>
+    </head>
+    <body>
+        <h1>Mohamed</h1>
+        <a href="#about" title="About Me">About Me</a> <br>
+        <a href="#skills" title="Skills">Skills</a> <br>
+        <a href="#projects" title="Projects">Projects</a> <br>
+        <a href="#contact" title="Contact">Contant</a> <br>
+        <!--1 and 2 done! up there -->
+        <h2 id="about">About Me.</h2>
+        <p>I am a <b>Computer Science </b>Student in <mark>MSA.</mark> And I want to <mark>help people.</mark></p>
+        <img decoding="async" src="imgs/roblaxe.png" width="150" alt="">
+        <hr />
+        <h2 id="skills">Skills & Stack.</h2>
+        <ul>
+            <li>
+                Front-End
+                <ol start="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ol>
+            </li>
+            <li>
+                Back-End
+                <ol type="A" start="3">
+                    <li>NodeJS</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                </ol>
+            </li>
+        </ul>
+        <dl>
+            <dt>Semantic HTML:</dt>
+            <dd>Using meaningful tags like header, main, and footer.</dd>
+            <dt>Clean Code</dt>
+            <dd>Writing structured markup without missing closing tags.</dd>
+        </dl>
+        <hr />
+        <!-- 3 and 4 done up there!-->
+         <h2 id="projects">Project Grades & Status</h2>
+         <table border="1"> <!--CSS soon-->
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Tech Stack</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Book Store App</td>
+                    <td>HTML / CSS</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>C++ Shopping System</td>
+                    <td>C++</td>
+                    <td>A+</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Projects Completed: 2</td>
+                </tr>
+            </tfoot>
+         </table>
+         <div class="projects-container">
+            <div class="card">
+                <h3>Book Store</h3>
+                <p></p>
+                <button class="btn">View Code</button>
+            </div>
+            <div class="card">
+                <h3>C++ Mini Market</h3>
+                <p></p>
+                <button class="btn">View Code</button>
+            </div>
+         </div>
+         <hr />
+         <!-- 5 done up there! -->
+          <h2 id="contact">Contact & Status</h2>
+          <p>Status: <span class="status-online">Online</span><br>Location: Egypt</p>
+          <a href="mailto:mo@example.com">Send Me an Email</a>
+    </body>
+</html>

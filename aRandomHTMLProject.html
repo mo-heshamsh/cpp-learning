@@ -1,0 +1,49 @@
+<!--build a clean navigation/menu tree using proper nesting rules (every sub-list must sit inside an <li>!):
+
+create an main unordered list (<ul>):
+
+item 1: Front-End
+
+inside Front-End, nest an ordered list (<ol>) starting at number 1:
+
+HTML
+
+CSS
+
+item 2: Back-End
+
+inside Back-End, nest an ordered list (<ol>) using capital letters (type="A") starting at letter C:
+
+NodeJS
+
+Python
+
+C++-->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>El1Page</title>
+        <meta name="description" content="Special Page!" />
+    </head>
+    <body>
+        <ul>
+            <li>
+                Front-End
+                <ol start="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ol>
+            </li>
+            <li>
+                Back-End
+                <ol type="A" start="3">
+                    <li>NodeJS</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                </ol>
+            </li>
+        </ul>
+    </body>
+</html>
