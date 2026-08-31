@@ -2,7 +2,7 @@
 
 Welcome to my developer repository! I'm Mo, a Computer Science student blending low-level programming logic with modern web development. 
 
-This repository tracks my daily practice scripts, terminal apps, and web builds—learning from ElZero Web School, practicing on LeetCode, and constantly building hands-on projects to solidify muscle memory.
+This repository tracks my daily practice scripts, terminal apps, and web builds. learning from ElZero Web School, practicing on LeetCode, and constantly building hands-on projects to solidify muscle memory.
 
 ---
 
