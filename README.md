@@ -2,7 +2,7 @@
 
 Welcome to my developer repository! I'm Mo, a Computer Science student blending low-level programming logic with modern web development. 
 
-This repository tracks my daily practice scripts, terminal apps, and web builds. learning from ElZero Web School, practicing on LeetCode, and constantly building hands-on projects to solidify muscle memory.
+This repository tracks my daily practice scripts, terminal apps, and web builds. learning from elzero Web School (shout out to that great guy!), practicing on LeetCode, and constantly building hands-on projects to solidify muscle memory.
 
 ---
 
@@ -49,7 +49,3 @@ A full-featured terminal shopping application built completely from scratch in C
 - [ ] **CSS3 Foundations:** Selectors, Box Model, Flexbox & Grid
 - [ ] **Advanced Logic:** C++ Pointers, Memory Management & OOP
 - [ ] **JavaScript:** Dynamic Web Interfaces & Logic
-
----
-
-> *"Building muscle memory through hands-on code every single day."*
